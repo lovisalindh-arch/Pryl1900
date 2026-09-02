@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pryl 1900 - En hemsidan för återförsäljning av möbler i centrala Umeå">
+    
+    <title>Pryl1900-hemsida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="meny" id="start">
+        <img class="logga-meny" src="logga-meny.png" alt="Pryl1900 logga">
+        <ul>
+            <li><a href="#" class="hamburger-knapp">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                 MENY 
+             </a>
+                <div class="sub-meny">
+                    <ul>
+                        <li><a href="index.html">Start</a></li>
+                        <li><a href="omoss.html">Om oss</a></li>
+                        <li><a href="varfor.html">Varför handla av oss?</a></li>
+                        <li><a href="tomning.html">Tömning och flyttstäd</a></li>
+                        <li><a href="kontakt.html">Kontakt och öppettider</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="kontakt">
+        <img src="kontaktbakgrund.jpg" alt="Butiken Pryl1900 inifrån" class="kontaktbild">
+
+        <div class="ruta kontaktinfo">
+            <h1> KONTAKT </h1>
+
+            <div class="kontaktuppgifter">
+                <p><i class="fa fa-phone"></i> 070-448 51 43</p>
+                <a href="https://instagram.com/pryl1900" class="instaknapp">
+                    <span>Följ oss på instagram </span>
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+
+            <form action="mailto:lovisalindh@icloud.com" method="post" enctype="text/plain">
+                <label for="namn">Namn:</label>
+                <input type="text" id="namn" name="namn" required>
+            
+                <label for="epost">E-post:</label>
+                <input type="email" id="epost" name="epost" required>
+            
+                <label for="meddelande">Meddelande:</label>
+                <textarea id="meddelande" name="meddelande" rows="5" required></textarea>
+            
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
+
+        <div class="ruta oppettider">
+            <h2>ÖPPETTIDER</h2>
+            <table>
+                <tr><td><strong>Måndag</strong></td><td>Stängt</td></tr>
+                <tr><td><strong>Tisdag</strong></td><td>12-17</td></tr>
+                <tr><td><strong>Onsdag</strong></td><td>12-18</td></tr>
+                <tr><td><strong>Torsdag</strong></td><td>12-17</td></tr>
+                <tr><td><strong>Fredag</strong></td><td>12-16</td></tr>
+                <tr><td><strong>Lördag</strong></td><td>11-14</td></tr>
+                <tr><td><strong>Söndag</strong></td><td>Stängt</td></tr>
+            </table>
+        </div>
+
+        <div class="ruta hittahit">
+            <h2>HITTA HIT</h2>
+            <p><i class="fa fa-map-marker"></i> Kungsgatan 92, Umeå</p>
+            <video controls>
+                <source src="hittapryl1900.mp4" type="video/mp4">
+                Din webbläsare stödjer inte videouppspelning.
+            </video>
+        </div>
+
+    </div>
+
+</body>
+</html>
